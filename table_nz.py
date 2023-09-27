@@ -18,9 +18,6 @@ data = {'Control Type': ['PID (classic)', 'P', 'PI', 'PD',
                        (1 / 9) * Ku / Tu, (1 / 15) * Ku / Tu]
         }
 
-# Create a DataFrame
 df = pd.DataFrame(data)
 df.to_csv('nz_calculating.csv', sep=',')
-
-# Display the DataFrame as an HTML table
 display(df)
